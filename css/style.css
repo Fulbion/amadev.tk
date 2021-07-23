@@ -89,7 +89,7 @@ section.links {
     color: rgb(255, 255, 255);
 }
 
-.wrapper .button:nth-child(1):hover span a {
+.wrapper .button:nth-child(1):hover span {
     color: rgb(27, 159, 241);
 }
 
