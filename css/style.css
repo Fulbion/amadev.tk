@@ -27,6 +27,9 @@ nav ul li {
     margin-left: 12px;
 }
 
+p.about {
+    margin: 15px;
+}
 
 /* Liens animés */
 section.links {
