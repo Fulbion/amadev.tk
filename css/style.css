@@ -3,17 +3,48 @@ body {
     font-family: Calibri, sans-serif;
 }
 
+
+.services {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.delivery-icon {
+    font-size: 50px;
+    color: #fd8802;
+}
+
+.service-details {
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
 /* Tête de page */
 section.home-top {
     height: 80vh;
     background-image: url("../img/bg.jpg");
     background-size: cover;
     color: white;
+
 }
 
 header {
     display: flex;
     align-items: center;
+    
 }
 
 nav ul li {
@@ -21,11 +52,25 @@ nav ul li {
     padding: 30px;
 }
 
-.landing {
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+    margin-left: 30px;
+}
+
+nav.nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+div.title {
     font-family: 'Times New Roman', Times, serif;
     font-size: 64px;
     margin-left: 12px;
 }
+
 
 p.about {
     margin: 15px;
@@ -66,6 +111,22 @@ section.links {
 
 .wrapper .button:hover {
     width: 200px;
+}
+
+.section-title {
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    position: relative;
+}
+
+.section-title::before {
+    content: "";
+    position: absolute;
+    background-color: #fd8802;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
 }
 
 .wrapper .button .icon {
@@ -125,4 +186,126 @@ a { text-decoration: none; }
     font-weight: 500;
     line-height: 60px;
     margin-left: 10px;
+}
+
+/* pied de page */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+    font-weight: 600;
+}
+
+footer a.cgv {
+    text-decoration: none;
+    color: black;
+}
+
+/* titre annimé */
+div.title {
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+
+div.title p {
+    font-family: Consolas, monospace;
+    font-size: 100px;
+    font-style: normal;
+    position: relative;
+}
+
+div.title i {
+    font-family: "Calibri Light", Calibri, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    position: relative;
+}
+
+div.title p::before, div.title p::after {
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+div.title p::before {
+    background: rgb(23, 25, 29);
+    animation: typewriter 2s steps(7) forwards;
+}
+
+div.title p::after {
+    width: 0.0625em;
+    background-color: white;
+    animation: typewriter 2s steps(7) forwards, blink 1s steps(7) infinite;
+}
+
+@keyframes typewriter {
+    to {
+        left: 100%;
+    }
+}
+
+@keyframes blink {
+    to {
+        background-color: transparent;
+    }
+}
+
+/* sous titre animé */
+
+div.sub-title {
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+
+div.sub-title p {
+    font-family: Consolas, monospace;
+    font-size: 45px;
+    font-style: normal;
+    position: relative;
+}
+
+div.sub-title i {
+    font-family: "Calibri Light", Calibri, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    position: relative;
+}
+
+div.sub-title p::before, div.title p::after {
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+div.sub-title p::before {
+    background: rgb(23, 25, 29);
+    animation: typewriter 2s steps(7) forwards;
+}
+
+div.sub-title p::after {
+    width: 0.0625em;
+    background-color: white;
+    animation: typewriter 2s steps(7) forwards, blink 1s steps(7) infinite;
+}
+
+@keyframes typewriter {
+    to {
+        left: 100%;
+    }
+}
+
+@keyframes blink {
+    to {
+        background-color: transparent;
+    }
 }
