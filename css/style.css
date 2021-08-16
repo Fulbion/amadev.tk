@@ -188,8 +188,7 @@ a { text-decoration: none; }
     margin-left: 10px;
 }
 
-/* pied de page */
-
+/* Pied de page */
 footer {
     display: flex;
     justify-content: space-between;
@@ -203,7 +202,7 @@ footer a.cgv {
     color: black;
 }
 
-/* titre annimé */
+/* Titre animé */
 div.title {
     display: grid;
     place-content: center;
@@ -235,13 +234,13 @@ div.title p::before, div.title p::after {
 
 div.title p::before {
     background: rgb(23, 25, 29);
-    animation: typewriter 2s steps(7) forwards;
+    animation: typewriter 2s steps(6) forwards;
 }
 
 div.title p::after {
     width: 0.0625em;
     background-color: white;
-    animation: typewriter 2s steps(7) forwards, blink 1s steps(7) infinite;
+    animation: typewriter 2s steps(6) forwards, blink 1s steps(6) infinite;
 }
 
 @keyframes typewriter {
@@ -256,8 +255,7 @@ div.title p::after {
     }
 }
 
-/* sous titre animé */
-
+/* Sous-titre */
 div.sub-title {
     display: grid;
     place-content: center;
@@ -280,32 +278,4 @@ div.sub-title i {
 
 div.sub-title p::before, div.title p::after {
     content: "";
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    position: absolute;
-}
-
-div.sub-title p::before {
-    background: rgb(23, 25, 29);
-    animation: typewriter 2s steps(7) forwards;
-}
-
-div.sub-title p::after {
-    width: 0.0625em;
-    background-color: white;
-    animation: typewriter 2s steps(7) forwards, blink 1s steps(7) infinite;
-}
-
-@keyframes typewriter {
-    to {
-        left: 100%;
-    }
-}
-
-@keyframes blink {
-    to {
-        background-color: transparent;
-    }
 }
