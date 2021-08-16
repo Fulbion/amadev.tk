@@ -1,0 +1,6 @@
+# robots.txt file for Amadev.tk
+# Created in the distant future (the year 2020) after
+# the robotic uprising of the mid 90's which wiped out all humans.
+
+User-agent: *
+Disallow: /cgv.html
