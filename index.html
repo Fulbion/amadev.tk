@@ -1,86 +1,379 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Amadev.tk</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="shortcut icon" href="img/icon.jpg">
-    <script src="js/a076d05399.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="copyright" content="Amadev, https://amadev.tk/">
+    <title>Amadev - Acceuil</title>
+    <link rel="stylesheet" href="assets/css/maicons.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/vendor/animate/animate.css">
+    <link rel="stylesheet" href="assets/css/theme.css">
+    <link rel="shortcut icon" href="assets/img/logo.png">
 </head>
-<body>
-    <section class="home-top">
-        <header class="header">
-            <img src="img/logo-transparency.png" alt="Logo du site" width="192" height="108">
-            <nav class="nav">
-                <li><a href="/">Accueil</a></li>
-                <li><a href="#about">A propos</a></li>
-                <li><a href="#links">Nous rejoindre</a></li>
-            </nav>
-        </header>
-        <div class="title">
-            <p>Amadev</p>
+    <body>
+    <!-- Back to top button -->
+    <div class="back-to-top"></div>
+
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky" data-offset="500">
+        <div class="container">
+        <a href="#" class="navbar-brand">Ama<span class="text-primary">dev</span></a>
+
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse" id="navbarContent">
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Acceuil</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">À propos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="service.html">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="btn btn-primary ml-lg-2" href="#">Nous rejoindre</a>
+            </li>
+            </ul>
         </div>
-        <div class="sub-title">
-            <i>Cherchez moins, codez plus</i>
+
         </div>
-    </section>
-    <section class="services" id="services">
-        <div class="service-item">
-            <i class="fas fa-store delivery-icon"></i>
-            <p class="service-details">Support rapide</p>
+    </nav>
+
+    <div class="container">
+        <div class="page-banner home-banner">
+        <div class="row align-items-center flex-wrap-reverse h-100">
+            <div class="col-md-6 py-5 wow fadeInLeft">
+            <h1 class="mb-4">Plus besoin de chercher un développeur !</h1>
+            <p class="text-lg text-grey mb-5">Nous vous proposons des développeurs actifs et compétents pour vous aider dans tous vos projets.</p>
+            <a href="#" class="btn btn-primary btn-split">Commencer<div class="fab"><span class="mai-code"></span></div></a>
+            </div>
+            <div class="col-md-6 py-5 wow zoomIn">
+            <div class="img-fluid text-center">
+                <img src="../assets/img/banner_image_1.svg" alt="">
+            </div>
+            </div>
         </div>
-        <div class="service-item">
-            <i class="fas fa-people-carry delivery-icon"></i>
-            <p class="service-details">Développeurs confirmés</p>
+        <a href="#about" class="btn-scroll" data-role="smoothscroll"><span class="mai-arrow-down"></span></a>
         </div>
-        <div class="service-item">
-            <i class="fas fa-truck delivery-icon"></i>
-            <p class="service-details">Livraison rapide</p>
+    </div>
+    </header>
+
+    <div class="page-section">
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-4">
+            <div class="card-service wow fadeInUp">
+            <div class="header">
+                <img src="../assets/img/services/service-1.svg" alt="">
+            </div>
+            <div class="body">
+                <h5 class="text-secondary">Meilleur travail</h5>
+                <p>Nous vous proposons les meilleurs services au plus bas prix, voire même gratuits.</p>
+                <a href="service.html" class="btn btn-primary">En savoir plus</a>
+            </div>
+            </div>
         </div>
-    </section> 
-    <section class="about" id="about">
-        <h2 class="section-title"><font style="font-family: Calibri;">A propos</font></h2>
-        <div class="about-text">
+        <div class="col-lg-4">
+            <div class="card-service wow fadeInUp">
+            <div class="header">
+                <img src="../assets/img/services/service-2.svg" alt="">
+            </div>
+            <div class="body">
+                <h5 class="text-secondary">Objectifs</h5>
+                <p>Nous sommes en quête de dominer le marché avec nos produits. 😂<p>
+                <a href="service.html" class="btn btn-primary">En savoir plus</a>
+            </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card-service wow fadeInUp">
+            <div class="header">
+                <img src="../assets/img/services/service-3.svg" alt="">
+            </div>
+            <div class="body">
+                <h5 class="text-secondary">Trouver du code</h5>
+                <p>Nos développeurs s'engagent à produire du code de bonne qualité dans les plus brefs délais.</p>
+                <a href="service.html" class="btn btn-primary">En savoir plus</a>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div> <!-- .container -->
+    </div> <!-- .page-section -->
+
+    <div class="page-section" id="about">
+    <div class="container">
+        <div class="row align-items-center">
+        <div class="col-lg-6 py-3 wow fadeInUp">
+            <span class="subhead">À propos</span>
+            <h2 class="title-section">Nos origines</h2>
+            <div class="divider"></div>
+
             <p>
-                <h2>Origines</h2>
-                Le projet, sorti de la tête de Zuygui et de Vedery', est né le 22 juillet 2021. <br>
-                À la base, le site devait s'appeler <i>Amazondev</i><a href="#footmarks">&sup1;</a>, mais a été renommé <i>Amadev</i> par souci de prononciation. <br><br>
-                
-                <h2>Logo</h2>
-                Le logo actuel en haut à gauche de la page reste inchangé. Il a été repris du logo de <i>Amazon</i> (sans déconner) et a été modifié <br>
-                à l'aide du logiciel Paint. La transparence a été ajoutée par la suite. <br><br>
-
-                <h2>Le développement</h2>
-                Le site a été développé par "modules". Ces modules ont été développés pour la plupart par Vedery' (Co-fondateur d'Amadev), puis assemblés par Zuygui (Fondateur) afin de donner ce résultat.
-                Le développement ne réside pas que dans ce site web. Il y est aussi dans le bot <a href="https://discord.gg/yheXwkfnWe">Discord</a>. Et le développement informatique a donné cette "entreprise". 
-                Nous faisons cet effort par pur plaisir afin d'aider les gens qui n'ont pas ce savoir.
-
-                <h2>Notes de bas de page</h2>
-                1. <i>Amazondev</i> se prononçait : [amazõd&epsilon;v].
+                Étant deux fondateurs, nous en avions marre des services payants
+                pour le développement informatique. Certains de ces services non seulement copiaient-collaient <a href="https://github.com">GitHub</a>, mais parfois nous volaient.
             </p>
+            <p>C'est ainsi que nous avons eu l'idée d'Amadev, un service (presque) 100% gratuit qui reprendrait le principe d'Amazon pour les développeurs</p>
+            <a href="about.html" class="btn btn-primary mt-3">En savoir plus</a>
         </div>
-    </section>
-    <section class="links" align="center" id="links">
-        <div class="wrapper">
-            <div class="button">
-                <div class="icon"><i class="fab fa-twitter"></i></div>
-                <span>Twitter</span>
-            </div>
-            <div class="button">
-                <div class="icon"><a href="https://github.com/Vedery/amadev.tk" target="blank"><i class="fab fa-github"></i></a></div>
-                <span><a href="https://github.com/Vedery/amadev.tk" target="blank">GitHub</a></span>
-            </div>
-            <div class="button">
-                <div class="icon"><a href="https://discord.gg/yheXwkfnWe" target="blank"><i class="fab fa-discord"></i></a></div>
-                <span><a href="https://discord.gg/yheXwkfnWe" target="blank">Discord</a></span>
+        <div class="col-lg-6 py-3 wow fadeInRight">
+            <div class="img-fluid py-3 text-center">
+            <img src="../assets/img/about_frame.png" alt="">
             </div>
         </div>
-    </section>
-    <footer>
-        <p class="copyright">&copy; 2021 - Amadev</p>
-        <a href="cgv.html" class="cgv">Conditions générales de ventes</a>
+        </div>
+    </div> <!-- .container -->
+    </div> <!-- .page-section -->
+
+    <div class="page-section bg-light">
+    <div class="container">
+        <div class="text-center wow fadeInUp">
+        <div class="subhead">Nos services</div>
+        <h2 class="title-section">Regardez ce que nous proposons :</h2>
+        <div class="divider mx-auto"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+            <div class="features">
+                <div class="header mb-3">
+                <span class="mai-business"></span>
+                </div>
+                <h5>Sites Web</h5>
+                <p>Nous vous créons un site web.</p>
+            </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+            <div class="features">
+                <div class="header mb-3">
+                <span class="mai-business"></span>
+                </div>
+                <h5>Installation de serveurs</h5>
+                <p>Nous vous configurons un serveur.</p>
+            </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+            <div class="features">
+                <div class="header mb-3">
+                <span class="mai-business"></span>
+                </div>
+                <h5>Mise en place de programme</h5>
+                <p>Nous vous mettons en place vos sites et programmes.</p>
+            </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+            <div class="features">
+                <div class="header mb-3">
+                <span class="mai-business"></span>
+                </div>
+                <h5>Bots Discord</h5>
+                <p>Nous vous créons un bot Discord.</p>
+            </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+            <div class="features">
+                <div class="header mb-3">
+                <span class="mai-business"></span>
+                </div>
+                <h5>Jeux vidéos</h5>
+                <p>Nous vous créons un jeu vidéo (cependant, ceux-ci seront payants).</p>
+            </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+            <div class="features">
+                <div class="header mb-3">
+                <span class="mai-business"></span>
+                </div>
+                <h5>Création d'applications</h5>
+                <p>Nous vous créons une application de bureau, ou encore des applications Android.</p>
+            </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+            <div class="features">
+                <div class="header mb-3">
+                <span class="mai-business"></span>
+                </div>
+                <h5>Programme Customisé</h5>
+                <p>Nous pouvons vous fournir un programme customisé</p>
+            </div>
+            </div>
+        </div>
+
+    </div> <!-- .container -->
+    </div> <!-- .page-section -->
+
+    <div class="page-section">
+    <div class="container">
+        <div class="text-center wow fadeInUp">
+        <div class="subhead">Amadev Prime</div>
+        <h2 class="title-section">Choisissez un abbonement facultatif</h2>
+        <div class="divider mx-auto"></div>
+        </div>
+        <div class="row mt-5">
+        <div class="col-lg-4 py-3 wow zoomIn">
+            <div class="card-pricing">
+            <div class="header">
+                <div class="pricing-type">Basique</div>
+                <div class="price">
+                <span class="dollar">€</span>
+                <h1>9<span class="suffix">.99</span></h1>
+                </div>
+                <h5>Par mois</h5>
+            </div>
+            <div class="body">
+                <p>3 jours <span class="suffix">Cooldown</span></p>
+                <p>-30% sur les commandes <span class="suffix">Payantes</span></p>
+                <p>Non open-source <span class="suffix">sur Github</span></p>
+                <p>Maximal <span class="suffix">Optimisation</span></p>
+                <p>12/7 <span class="suffix">Support 3 mois</span></p>
+            </div>
+            <div class="footer">
+                <a href="#" class="btn btn-pricing btn-block">S'abonner</a>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 py-3 wow zoomIn">
+            <div class="card-pricing marked">
+            <div class="header">
+                <div class="pricing-type">Standard</div>
+                <div class="price">
+                <span class="dollar">€</span>
+                <h1>49<span class="suffix">.99</span></h1>
+                </div>
+                <h5>Par Mois</h5>
+            </div>
+            <div class="body">
+                <p>1 jour <span class="suffix">Cooldown</span></p>
+                <p>-50% sur les commandes <span class="suffix">payantes</span></p>
+                <p>Non open-source <span class="suffix">sur Github</span></p>
+                <p>Extrême <span class="suffix">Optimisation</span></p>
+                <p>24/7 <span class="suffix">Support 6 mois</span></p>
+            </div>
+            <div class="footer">
+                <a href="#" class="btn btn-pricing btn-block">S'abonner</a>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 py-3 wow zoomIn">
+            <div class="card-pricing">
+            <div class="header">
+                <div class="pricing-type">Professionel</div>
+                <div class="price">
+                <span class="dollar">€</span>
+                <h1>99<span class="suffix">.99</span></h1>
+                </div>
+                <h5>Par mois</h5>
+            </div>
+            <div class="body">
+                <p>Sans <span class="suffix">Cooldown</span></p>
+                <p>-75% sur les commandes <span class="suffix">payantes</span></p>
+                <p>Non open-source <span class="suffix">sur Github</span></p>
+                <p>Sans signature <span class="suffix">du développeur</span></p>
+                <p>24/7 <span class="suffix">Support 1 an</span></p>
+            </div>
+            <div class="footer">
+                <a href="#" class="btn btn-pricing btn-block">S'abonner</a>
+            </div>
+            </div>
+        </div>
+
+        </div>
+    </div> <!-- .container -->
+    </div> <!-- .page-section -->
+
+    <!-- Banner info -->
+    <div class="page-section banner-info">
+    <div class="wrap bg-image" style="background-image: url(../assets/img/bg_pattern.svg);">
+        <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 py-3 pr-lg-5 wow fadeInUp">
+            <h2 class="title-section"><i>Amadev code,<br> Vous profitez.</i></h2>
+            <div class="divider"></div>
+            <p>
+                Nos bénévoles sont passionés et ne sont pris que s'ils ont de bonne connaissances. Aucun développeur ne sera ménagé. Sinon, il
+                sera renvoyé, ne pouvant revenir que s'il est motivé.
+            </p>
+            
+            <ul class="theme-list theme-list-light text-white">
+                <li>
+                <div class="h5">Rapide</div>
+                <p>Nos services sont censés être rapides, s'ils ne le sont pas, signalez-le nous ou relancez le développeur.</p>
+                </li>
+                <li>
+                <div class="h5">Complet</div>
+                <p>Si ce que vous cherchez n'est pas à la carte, ne paniquez pas ! Il suffit juste de demander, nous faisons de tout.</p>
+                </li>
+            </ul>
+            </div>
+            <div class="col-lg-6 py-3 wow fadeInRight">
+            <div class="img-fluid text-center">
+                <img src="../assets/img/banner_image_2.svg" alt="">
+            </div>
+            </div>
+        </div>
+        </div>
+    </div> <!-- .wrap -->
+    </div> <!-- .page-section -->
+
+    <footer class="page-footer bg-image" style="background-image: url(../assets/img/world_pattern.svg);">
+    <div class="container">
+        <div class="row mb-5">
+        <div class="col-lg-3 py-3">
+            <h3>Amadev</h3>
+            <p>Nos services ne sont pas tous gratuits : ils sont gratuits pour la plupart, mais certaines commandes sont payantes vu leur taille ou leur complexitée</p>
+
+            <div class="social-media-button">
+            <a href="#"><span class="mai-logo-twitter"></span></a>
+            <a href="#"><span class="mai-logo-discord"></span></a>
+            <a href="#"><span class="mai-logo-github"></span></a>
+
+            </div>
+        </div>
+        <div class="col-lg-3 py-3">
+            <h5>Companie</h5>
+            <ul class="footer-menu">
+            <li><a href="#">À propos</a></li>
+            <li><a href="#">Nos développeurs</a></li>
+            <li><a href="#">Avertissements</a></li>
+            <li><a href="#">Conditions d'utilisation</a></li>
+            <li><a href="#">Aide et support</a></li>
+            </ul>
+        </div>
+        <div class="col-lg-3 py-3">
+            <h5>Nous contacter</h5>
+            <p>Sur Discord ou par e-mail</p>
+            <a href="#" class="footer-link">Discord: <u>Zuygui#1116</u> ou <u>Vedery'#1251</u></a>
+            <a href="#" class="footer-link">Email: <a href="mailto:support.amadev@gmail.com">support.amadev@gmail.com</a>
+        </div>
+        <div class="col-lg-3 py-3">
+            <h5>Newsletter</h5>
+            <p>Recevez les annonces et MAJ </p>
+            <input type="text" class="form-control" id="newletter" placeholder="Entrez votre email...">
+            <button class="btn btn-success btn-block mt-2" onclick="sendNews()">S'abonner</button>
+        </div>
+        </div>
+
+        <p class="text-center" id="copyright">© Amadev - 2021 | Tout droits résérvés</p>
+    </div>
     </footer>
+
+    <script src="../assets/js/jquery-3.5.1.min.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/google-maps.js"></script>
+    <script src="../assets/vendor/wow/wow.min.js"></script>
+    <script src="../assets/js/theme.js"></script>
+    <script src="../assets/js/Newsletter.js"></script>
+
 </body>
 </html>
